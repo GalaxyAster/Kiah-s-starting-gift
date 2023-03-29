@@ -29,17 +29,22 @@ h2{
     
 }
 
+.image{
+    display: flex;
+    justify-content: center;
+}
+
 img {
-    margin-left: 200px;
+   
     height: 100vh;
 }
 
-div{
-    transition: background-color 300ms;
+.header{
+   
     animation: float 2s infinite alternate-reverse;
 }
 
-div:hover{
+.header:hover{
    
 background-color: rgb(0, 0, 0);
 }
